@@ -3,3 +3,13 @@
   font-size: 1.25rem;
   text-transform: lowercase;
 }
+@media screen and (min-width:0){
+  .pessoa__funcao{
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (min-width:784px){
+  .pessoa__funcao{
+    margin-bottom: 0;
+  }
+}
